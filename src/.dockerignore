@@ -1,0 +1,30 @@
+# Ignora os arquivos de template para o Docker
+DockerFile-MySQL.dockerfile
+DockerFile-SQLServer.dockerfile
+
+# Ignora os arquivos de template para conexao
+template-conexaomysql-local.env
+template-conexaomysql-remota.env
+template-conexaosqlserver-local.env
+template-conexaosqlserver-remota.env
+
+# Ignora a pasta Vendor, pois a mesma é adicionada pelo Composer
+vendor
+vendor/*
+
+# Ignora os conteudos de Testes
+tests
+tests/*
+phpunit.xml
+
+# Ignora as informações de publicação
+LICENSE.md
+README.md
+
+# Ignora as informacoes de desenvolvimento
+.editorconfig
+.env.example
+.gitattributes
+.gitignore
+.git
+.git/*
